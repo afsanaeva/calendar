@@ -1,0 +1,33 @@
+.calendar ul{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr); 
+    grid-gap: 1em;
+    
+}
+li{
+    display: flex;
+    list-style: none;
+    font-size: 30px;
+    height: 125px;
+    background-color: aqua;
+    justify-content: center;
+    align-items: center; 
+   
+}
+.other-month{
+    background-color: coral;
+
+}
+.day li{
+    background-color: royalblue;
+}
+h1{
+    text-align: center;
+    color: crimson;
+    font-size: 50px;
+}
+h2{
+    text-align: center;
+    color: crimson;
+    font-size: 40px;
+}
